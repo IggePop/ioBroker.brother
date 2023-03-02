@@ -1,0 +1,49 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "brother",
+	"title": "Brother",
+	"description": "Read out informations from Brother printer",
+	"keywords": "",
+	"contributors": "",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "infrastructure",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "option1",
+			"defaultValue": true,
+			"inputType": "checkbox"
+		},
+		{
+			"key": "option2",
+			"defaultValue": "42",
+			"inputType": "text"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "Ingmar",
+	"authorGithub": "IggePop",
+	"authorEmail": "github@igge.org",
+	"gitRemoteProtocol": "SSH",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
